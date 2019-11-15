@@ -29,15 +29,8 @@
 3.	Thingspeak Resources 
 4.  Blynk application 
 
-
-
-
-
-
-
-
-
-
-
-
-
+# Limitations
+⮚	Considering the fact that the model has been made under financial restrictions, several sensors have not been incorporated so as to optimize affordability. \
+⮚	The model heavily relies on nodemcu for wifi-connectivity. \
+⮚	The temperature-humidity sensor implemented is primitive to put it gently. \
+⮚	Also, the clock-pulse continuously dislocates the sub-lid which results into continuous assembling and detaching everything from scratch.
