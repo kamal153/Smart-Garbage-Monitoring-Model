@@ -1,0 +1,13 @@
+readChId = 857766;
+writeChId = 857766;
+
+writeKey = 'WZR2LMP6I5OXQF87';
+readKey = '4B1A3BM9HQXDXXRR';
+
+[u1,time1] = thingSpeakRead(readChId,'Fields',1,'NumPoints',50,'ReadKey',readKey);
+[u2,time2] = thingSpeakRead(readChId,'Fields',2,'NumPoints',50,'ReadKey',readKey);
+
+plot(time1,u1,'r',time2,u2,'g');
+xlabel('Date & Time');
+ylabel('ultrasonic');
+legend('ultrasonic1','ultrasonic2');
